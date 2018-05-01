@@ -8,18 +8,17 @@
 	<!-- Defines what page requires a login in order to access -->
 	<http auto-config="true">
 		<!-- The * represents anything can come after it so /admin/privatePage will require a login -->
-		<intercept-url pattern="/admin/*"
-			access="ROLE_ADMIN" />
+		<intercept-url pattern="/admin/*" access="ROLE_ADMIN" />
+		<intercept-url pattern = "/forms" access = "ROLE_USER, ROLE_ADMIN" />
 	</http>
 
 
 	<authentication-manager>
 		<authentication-provider>
 			<user-service>
-				<!-- Admin account created to access private page -->
-				<user name="admin"
-					password="admin"
-					authorities="ROLE_ADMIN" />
+				<!-- Accounts created to access private page -->
+				<user name = "admin" password = "admin" authorities = "ROLE_ADMIN" />
+				<user name = "user" password = "user" authorities = "ROLE_USER" />
 			</user-service>
 		</authentication-provider>
 	</authentication-manager>

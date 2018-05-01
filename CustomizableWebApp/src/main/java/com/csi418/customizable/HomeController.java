@@ -36,5 +36,9 @@ public class HomeController {
 		return "privatePage";
 	}
 	
+	@RequestMapping(value = "/forms", method = RequestMethod.GET)
+	public String forms() {
+		return "forms";
+	}
 	
 }
