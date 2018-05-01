@@ -22,11 +22,15 @@ public class HomeController {
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
+	
+	// Default view so when browser is launched, jsp file "home" is opened as the home page
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home() {
 		return "home";
 	}
 	
+	
+	// url with /admin/privatePage is opened calling the jsp file : privatePage (.jsp)
 	@RequestMapping(value = "/admin/privatePage", method = RequestMethod.GET)
 	public String privatePage() {
 		return "privatePage";
