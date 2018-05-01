@@ -8,3 +8,6 @@ Admin - Username = "admin", Password = "admin". Can access /forms and /admin/pri
 
 User - Username = "user", Password = "user". Can access /forms
 
+To test examples, you might need to use incognito mode (user sessions are saved by browsers) :
+http://www.burtonfeng.azurewebsites.net/forms can be accessed by admins AND users
+http://www.burtonfeng.azurewebsites.net/admin/privatePage can ONLY be accesed by admins
