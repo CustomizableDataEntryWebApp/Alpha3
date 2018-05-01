@@ -1,4 +1,5 @@
 # Alpha3
+### To use, clone the repository onto Eclipse. You will be prompted to download STS onto your Eclipse. Download the required STS, and Apache Tomcat 9, and it should run.
 
 Customizable Data Entry Web App for CSI 418y.
 
