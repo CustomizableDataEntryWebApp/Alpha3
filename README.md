@@ -28,6 +28,7 @@ Read the ```<user-service>``` block to see what accounts are available, and thei
 
 # Servlet Context
 The views are controlled from the controller (JAVA), but it is defined in ```/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml```
+
 This tells our web app where to find the jsp files that are used to generate the views
 
 
