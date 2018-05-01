@@ -15,11 +15,13 @@ http://burtonfeng.azurewebsites.net/admin/privatePage can ONLY be accesed by adm
 
 
 # JAVA
-The Controller can be found at: ```/JavaResources/src/main/java/customizable/HomeController.java```
+The Controller can be found at: 
+```/JavaResources/src/main/java/customizable/HomeController.java```
 
 
 # Security
-XML Security can be found at: ```/src/main/webapp/WEB-INF/spring/appServlet/security-context.xml```
+XML Security can be found at: 
+```/src/main/webapp/WEB-INF/spring/appServlet/security-context.xml```
 
 Read the ```<http>``` block to see how pages are being intercepted and logins are required.
 
@@ -27,13 +29,15 @@ Read the ```<user-service>``` block to see what accounts are available, and thei
 
 
 # Servlet Context
-The views are controlled from the controller (JAVA), but it is defined in ```/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml```
+The views are controlled from the controller (JAVA), but it is defined in :
+```/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml```
 
 This tells our web app where to find the jsp files that are used to generate the views
 
 
 # Views
-Can be found under ```/src/main/webapp/WEB-INF/views```
+Can be found under:
+```/src/main/webapp/WEB-INF/views```
 ### Forms
 Where users will enter their search results. Can be accessed by BOTH users AND admins
 ### Home
